@@ -1,5 +1,7 @@
 spring AOP做切面配置
 http://www.blogjava.net/supercrsky/articles/174368.html
+AOP释疑 
+http://www.cnblogs.com/jingzhishen/p/4980551.html
 
 一、Spring AOP 概念：
 1、 join point（连接点）： 程序执行时某个精确特定的点，是一个抽象的概念。
