@@ -3,3 +3,7 @@ http://www.cnblogs.com/lwbqqyumidi/p/3837629.html
 
 一、概念
 1、参数类型（type paramter） 指明参数的类型， 例： ArrayList<T> 的T ， 常用有： T、 E（element）、 U、K（key）、V（value）
+2、类型擦除：java虚拟机编译时，会把泛型参数擦除，未指定参数类型边界的擦除为Object类型，已指定类型的擦除到边界类型；
+        例如：ArrayList<T> ,擦除后的到字节码类型参数替换为Object类型，
+             ArrayList<T extends BoundingType> 擦除后把所有的类型参数替换为BoundingType。
+3、原始类型（raw type）： 编译时把参数擦除之后的为类的原始类型。
