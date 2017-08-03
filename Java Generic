@@ -1,2 +1,5 @@
 java 泛型总结：
 http://www.cnblogs.com/lwbqqyumidi/p/3837629.html
+
+一、概念
+1、参数类型（type paramter） 指明参数的类型， 例： ArrayList<T> 的T ， 常用有： T、 E（element）、 U、K（key）、V（value）
