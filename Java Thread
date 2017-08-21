@@ -1,3 +1,4 @@
 1、java线程处理异常的考虑
 http://blog.csdn.net/dearfellow/article/details/52593895
-2、多线程编程
+2、Thread.yield 理解：
+http://blog.csdn.net/dabing69221/article/details/17426953
